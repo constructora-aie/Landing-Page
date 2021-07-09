@@ -1,0 +1,74 @@
+html,body {
+    height:100%;
+}
+
+body{
+    background-color:white;
+}
+
+header {
+        
+    display:block;
+    background-image: url(../media/Imagen3.png);
+    background-size: 22%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:10px 0px;
+    background-color: orange;
+}
+
+section {
+    width: 79%;
+    background: gray;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+    top: 0%;
+    color: white;
+    text-align: center;
+}
+
+aside {
+    float: right;
+    border: 5px solid orange;
+    width: 20%;
+    border: 5px solid orange;
+    background: gray;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 130px; 
+    padding:5px 0px;
+    clear: both;
+    background: orange;
+    text-align: center;
+    color: #fff;
+}
+
+figure {
+    display: table; margin: 0 auto;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+a{
+    text-decoration: dotted;
+    color: black;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
