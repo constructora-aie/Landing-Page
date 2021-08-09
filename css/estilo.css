@@ -7,14 +7,10 @@ body{
 }
 
 header {
-        
-    display:block;
-    background-image: url(../media/Imagen3.png);
-    background-size: 22%;
-    background-position: center;
-    background-repeat: no-repeat;
     padding:10px 0px;
     background-color: orange;
+    text-align: center;
+    width: 100%
 }
 
 section {
@@ -71,4 +67,98 @@ table{
 
 td{
     text-align: center;
+    display: block;
+}
+
+.saltado{
+    float: left;
+    
+}
+.saltado td{
+    float: left;
+    margin-left: 70px;
+}
+
+#cabeza svg{
+    width: 500px;
+    height: 500px;
+}
+.saltado table td a{
+    margin-right: 10px;
+    margin-top: 100px;
+}
+#salto{
+    display: none;
+}
+.segundo{
+    float: right;
+    margin-right: 100px; 
+    width: 500px;
+}
+.jump{
+    float: left;
+}
+@media screen and (max-width:892px){
+
+#cabeza{
+    width: 98%;
+}
+
+header{
+    width: 98%;
+}
+section{
+    width: 98%;
+}
+aside{
+    width: 95%;
+    float: left;
+}
+footer{
+    width: 98%;
+}
+.imagencon{
+    width: 50px;
+    height: 50px;
+}
+#cabeza svg{
+    width: 250px;
+    height: 250px;
+}
+#salto{
+    display: block;
+}
+.saltar{
+    float: left;
+}
+.jump{
+    float: left;
+}
+tr{
+    
+    float: left;
+    margin-top: 5px;
+
+}
+td{
+    text-align: center;
+    margin-left: 25px;
+    width: 100px;
+
+}
+.saltado td{
+margin-left: 5px;
+float: none;
+}
+.saltar {
+    margin-top: 5px;
+}
+footer{
+    height: 200px;
+}
+.segundo{
+    float: right;
+    margin-right: 200px;
+    width: 25px;
+}
 }
